@@ -1,0 +1,16 @@
+Notes:
+
+To build and install libcommuni.so and example
+$ make all
+
+To build libcommuni.so use:
+$ make libcommuni.so
+
+To build and install libcommuni.so use:
+$ make install
+
+To build example with linking to libcommuni.so use:
+$ make main
+
+To quickly build example without linking to libcommuni.so use:
+$ make build-examples

@@ -1,0 +1,18 @@
+Notes:
+
+(*) Need to build and install libcommni.so before
+
+To build FFW source code use:
+$ make all
+
+To install FFW library (libffw.so) use:
+$ make install
+
+To build examples source code use:
+$ make examples
+
+To clear binary files use:
+$ make clean
+
+To clear all output files use:
+$ make clean-all

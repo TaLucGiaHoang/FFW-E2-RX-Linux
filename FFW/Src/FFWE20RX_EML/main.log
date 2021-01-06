@@ -1,0 +1,85 @@
+Initialized libusb
+4 Devices in list.
+Opening device 045B:82A1...
+
+Device properties:
+        bus number: 1
+         port path: 3 (from root hub)
+
+Reading device descriptor:
+            length: 18
+      device class: 0
+               S/N: 1
+           VID:PID: 045B:82A1
+         bcdDevice: 0100
+   iMan:iProd:iSer: 2:3:1
+          nb confs: 1
+
+Reading first configuration descriptor:
+     nb interfaces: 1
+
+Claiming interface 0...
+Claimed interface
+
+Emulator Information:
+	wEmuStatus              = 5
+	wBoardRev               = 3
+	eEmlPwrSupply           = 0
+	wVbusVal                = 3076
+	flNowVbus               = 4.956445
+	wTagetCable             = 3
+	eStatUIF                = 3
+	eStatUCON               = 1
+	wUvccVal                = 15
+	flNowUVCC               = 0.024170
+	eStatUVCC               = 0
+	byBfwMode               = 0
+	dwBfwLV0Ver             = 274726912
+	dwBfwEMLVer             = 25
+	wEmlTargetCpu           = 1
+	wEmlTargetCpuSub        = 0
+	cEmlTgtMucId            =                 
+	dwEmlTargetLv0Ver       = 0
+	dwBfwFdtVer             = -1
+	cFdtTgtMucId            = FFFF            
+	dwFdtTargetLv0Ver       = 0
+	byFpga1Status           = 0
+	byFpga1DbgIf            = 0
+	eDebugIF                = 0
+	byFpga1Rev              = 0
+	byFpga2DbgIf            = 0
+	eMCUType                = 0
+	byFpga2Rev              = 0
+	byFpgaVer               = 255
+	byTraceFlg              = 1
+ 
+Clear CPU: [0x00003000:0x00003028]
+
+Read 8 old bytes from CPU: [0x00003000] ==> "ffffffff"
+
+Write 8 new bytes to CPU: [0x00003000] <== "12345678"
+
+Read 8 new bytes from CPU: [0x00003000] ==> "12345678"
+
+Read 4 old Words from CPU: [0x00003008] ==> "ffffffff"
+
+Write 4 new Words to CPU: [0x00003008] <== "12345678"
+
+Read 4 new Words from CPU: [0x00003008] ==> "12345678"
+
+Read 2 old Long Words from CPU: [0x00003010] ==> "ffffffff"
+
+Write 2 new Long Words to CPU: [0x00003010] <== "12345678"
+
+Read 2 new Long Words from CPU: [0x00003010] ==> "12345678"
+
+Read 16 old bytes from CPU: [0x00003018] ==> "ffffffffffffffff"
+
+Write 16 new bytes to CPU: [0x00003018] <== "0123456789ABCDEF"
+
+Read 16 new bytes from CPU: [0x00003018] ==> "0123456789ABCDEF"
+
+Device detached
+Released Interface
+Close usb device
+Exit libusb

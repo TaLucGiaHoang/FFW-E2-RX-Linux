@@ -1,0 +1,324 @@
+[COM_Open] This is line 41 of file src/communi.cpp
+[Open] This is line 173 of file src/usb_e2usb.cpp
+Initialized libusb
+4 Devices in list.
+Opening device 045B:82A1...
+
+Device properties:
+        bus number: 1
+         port path: 3 (from root hub)
+
+Reading device descriptor:
+            length: 18
+      device class: 0
+               S/N: 1
+           VID:PID: 045B:82A1
+         bcdDevice: 0100
+   iMan:iProd:iSer: 2:3:1
+          nb confs: 1
+
+Reading first configuration descriptor:
+     nb interfaces: 1
+
+Claiming interface 0...
+Claimed interface
+[Open] done
+[COM_ReceiveBlock] This is line 269 of file src/communi.cpp
+[ReceiveBlock] This is line 848 of file src/usb_e2usb.cpp
+[FFWE20Cmd_GetEINF] This is line 177 of file Common/Com_FFWInterface/ffw_sys.cpp
+[DO_GetE20EINF] This is line 250 of file Common/Com_FFWCommand/do_sys.cpp
+[PROT_GetE20EINF] This is line 122 of file Common/Com_BFWProtocol/prot_sys.cpp
+[ProtSendCmd] This is line 81 of file Common/Com_BFWProtocol/prot_common.cpp
+[PutCmd] This is line 156 of file EmulatorInterface/comctrl.cpp return TRUE
+[ProtSendCmd] This is line 86 of file Common/Com_BFWProtocol/prot_common.cpp FFWERR_OK Done
+[ProtGetStatus] This is line 103 of file Common/Com_BFWProtocol/prot_common.cpp
+[GetData2] This is line 577 of file EmulatorInterface/comctrl.cpp
+[flashProtData] This is line 972 of file EmulatorInterface/comctrl.cpp
+[flashProtData] This is line 984 call COM_SendBlock
+[COM_SendBlock] This is line 247 of file src/communi.cpp
+[SendBlock] This is line 785 of file src/usb_e2usb.cpp
+total 2, send 2 (max 65536), remain 0
+[SendBlock] done
+[flashProtData] This is line 991 return nRet
+[COM_ReceiveBlock] This is line 269 of file src/communi.cpp
+[ReceiveBlock] This is line 848 of file src/usb_e2usb.cpp
+[COM_ReceiveBlock] This is line 269 of file src/communi.cpp
+[ReceiveBlock] This is line 848 of file src/usb_e2usb.cpp
+[GetData2] data in 0x000000b1, out 0x00002800
+[GetData2] This is line 577 of file EmulatorInterface/comctrl.cpp
+[flashProtData] This is line 972 of file EmulatorInterface/comctrl.cpp
+[COM_ReceiveBlock] This is line 269 of file src/communi.cpp
+[ReceiveBlock] This is line 848 of file src/usb_e2usb.cpp
+[COM_ReceiveBlock] This is line 269 of file src/communi.cpp
+[ReceiveBlock] This is line 848 of file src/usb_e2usb.cpp
+[GetData2] data in 0x00002800, out 0x00000000
+ERROR: ProtGetStatus returns error at line 142
+[ProtGetStatus] This is line 157 of file Common/Com_BFWProtocol/prot_common.cpp return ferr=0
+[flashProtData] This is line 972 of file EmulatorInterface/comctrl.cpp
+[COM_ReceiveBlock] This is line 269 of file src/communi.cpp
+[ReceiveBlock] This is line 848 of file src/usb_e2usb.cpp
+[GetData2] This is line 577 of file EmulatorInterface/comctrl.cpp
+[flashProtData] This is line 972 of file EmulatorInterface/comctrl.cpp
+[COM_ReceiveBlock] This is line 269 of file src/communi.cpp
+[ReceiveBlock] This is line 848 of file src/usb_e2usb.cpp
+[COM_ReceiveBlock] This is line 269 of file src/communi.cpp
+[ReceiveBlock] This is line 848 of file src/usb_e2usb.cpp
+[GetData2] data in 0x00000000, out 0x00000003
+[flashProtData] This is line 972 of file EmulatorInterface/comctrl.cpp
+[COM_ReceiveBlock] This is line 269 of file src/communi.cpp
+[ReceiveBlock] This is line 848 of file src/usb_e2usb.cpp
+[GetData2] This is line 577 of file EmulatorInterface/comctrl.cpp
+[flashProtData] This is line 972 of file EmulatorInterface/comctrl.cpp
+[COM_ReceiveBlock] This is line 269 of file src/communi.cpp
+[ReceiveBlock] This is line 848 of file src/usb_e2usb.cpp
+[COM_ReceiveBlock] This is line 269 of file src/communi.cpp
+[ReceiveBlock] This is line 848 of file src/usb_e2usb.cpp
+[GetData2] data in 0x00000003, out 0x00000c0f
+[GetData2] This is line 577 of file EmulatorInterface/comctrl.cpp
+[flashProtData] This is line 972 of file EmulatorInterface/comctrl.cpp
+[COM_ReceiveBlock] This is line 269 of file src/communi.cpp
+[ReceiveBlock] This is line 848 of file src/usb_e2usb.cpp
+[COM_ReceiveBlock] This is line 269 of file src/communi.cpp
+[ReceiveBlock] This is line 848 of file src/usb_e2usb.cpp
+[GetData2] data in 0x00000c0f, out 0x00000000
+[flashProtData] This is line 972 of file EmulatorInterface/comctrl.cpp
+[COM_ReceiveBlock] This is line 269 of file src/communi.cpp
+[ReceiveBlock] This is line 848 of file src/usb_e2usb.cpp
+[GetData2] This is line 577 of file EmulatorInterface/comctrl.cpp
+[flashProtData] This is line 972 of file EmulatorInterface/comctrl.cpp
+[COM_ReceiveBlock] This is line 269 of file src/communi.cpp
+[ReceiveBlock] This is line 848 of file src/usb_e2usb.cpp
+[COM_ReceiveBlock] This is line 269 of file src/communi.cpp
+[ReceiveBlock] This is line 848 of file src/usb_e2usb.cpp
+[GetData2] data in 0x00000000, out 0x00000012
+[flashProtData] This is line 972 of file EmulatorInterface/comctrl.cpp
+[COM_ReceiveBlock] This is line 269 of file src/communi.cpp
+[ReceiveBlock] This is line 848 of file src/usb_e2usb.cpp
+[flashProtData] This is line 972 of file EmulatorInterface/comctrl.cpp
+[COM_ReceiveBlock] This is line 269 of file src/communi.cpp
+[ReceiveBlock] This is line 848 of file src/usb_e2usb.cpp
+[COM_ReceiveBlock] This is line 269 of file src/communi.cpp
+[ReceiveBlock] This is line 848 of file src/usb_e2usb.cpp
+[COM_ReceiveBlock] This is line 269 of file src/communi.cpp
+[ReceiveBlock] This is line 848 of file src/usb_e2usb.cpp
+[COM_ReceiveBlock] This is line 269 of file src/communi.cpp
+[ReceiveBlock] This is line 848 of file src/usb_e2usb.cpp
+[flashProtData] This is line 972 of file EmulatorInterface/comctrl.cpp
+[COM_ReceiveBlock] This is line 269 of file src/communi.cpp
+[ReceiveBlock] This is line 848 of file src/usb_e2usb.cpp
+[COM_ReceiveBlock] This is line 269 of file src/communi.cpp
+[ReceiveBlock] This is line 848 of file src/usb_e2usb.cpp
+[COM_ReceiveBlock] This is line 269 of file src/communi.cpp
+[ReceiveBlock] This is line 848 of file src/usb_e2usb.cpp
+[COM_ReceiveBlock] This is line 269 of file src/communi.cpp
+[ReceiveBlock] This is line 848 of file src/usb_e2usb.cpp
+[GetData2] This is line 577 of file EmulatorInterface/comctrl.cpp
+[flashProtData] This is line 972 of file EmulatorInterface/comctrl.cpp
+[COM_ReceiveBlock] This is line 269 of file src/communi.cpp
+[ReceiveBlock] This is line 848 of file src/usb_e2usb.cpp
+[COM_ReceiveBlock] This is line 269 of file src/communi.cpp
+[ReceiveBlock] This is line 848 of file src/usb_e2usb.cpp
+[GetData2] data in 0x00000012, out 0x00000001
+[GetData2] This is line 577 of file EmulatorInterface/comctrl.cpp
+[flashProtData] This is line 972 of file EmulatorInterface/comctrl.cpp
+[COM_ReceiveBlock] This is line 269 of file src/communi.cpp
+[ReceiveBlock] This is line 848 of file src/usb_e2usb.cpp
+[COM_ReceiveBlock] This is line 269 of file src/communi.cpp
+[ReceiveBlock] This is line 848 of file src/usb_e2usb.cpp
+[GetData2] data in 0x00000001, out 0x00000000
+[flashProtData] This is line 972 of file EmulatorInterface/comctrl.cpp
+[COM_ReceiveBlock] This is line 269 of file src/communi.cpp
+[ReceiveBlock] This is line 848 of file src/usb_e2usb.cpp
+[flashProtData] This is line 972 of file EmulatorInterface/comctrl.cpp
+[COM_ReceiveBlock] This is line 269 of file src/communi.cpp
+[ReceiveBlock] This is line 848 of file src/usb_e2usb.cpp
+[flashProtData] This is line 972 of file EmulatorInterface/comctrl.cpp
+[COM_ReceiveBlock] This is line 269 of file src/communi.cpp
+[ReceiveBlock] This is line 848 of file src/usb_e2usb.cpp
+[flashProtData] This is line 972 of file EmulatorInterface/comctrl.cpp
+[COM_ReceiveBlock] This is line 269 of file src/communi.cpp
+[ReceiveBlock] This is line 848 of file src/usb_e2usb.cpp
+[flashProtData] This is line 972 of file EmulatorInterface/comctrl.cpp
+[COM_ReceiveBlock] This is line 269 of file src/communi.cpp
+[ReceiveBlock] This is line 848 of file src/usb_e2usb.cpp
+[flashProtData] This is line 972 of file EmulatorInterface/comctrl.cpp
+[COM_ReceiveBlock] This is line 269 of file src/communi.cpp
+[ReceiveBlock] This is line 848 of file src/usb_e2usb.cpp
+[flashProtData] This is line 972 of file EmulatorInterface/comctrl.cpp
+[COM_ReceiveBlock] This is line 269 of file src/communi.cpp
+[ReceiveBlock] This is line 848 of file src/usb_e2usb.cpp
+[flashProtData] This is line 972 of file EmulatorInterface/comctrl.cpp
+[COM_ReceiveBlock] This is line 269 of file src/communi.cpp
+[ReceiveBlock] This is line 848 of file src/usb_e2usb.cpp
+[flashProtData] This is line 972 of file EmulatorInterface/comctrl.cpp
+[COM_ReceiveBlock] This is line 269 of file src/communi.cpp
+[ReceiveBlock] This is line 848 of file src/usb_e2usb.cpp
+[flashProtData] This is line 972 of file EmulatorInterface/comctrl.cpp
+[COM_ReceiveBlock] This is line 269 of file src/communi.cpp
+[ReceiveBlock] This is line 848 of file src/usb_e2usb.cpp
+[flashProtData] This is line 972 of file EmulatorInterface/comctrl.cpp
+[COM_ReceiveBlock] This is line 269 of file src/communi.cpp
+[ReceiveBlock] This is line 848 of file src/usb_e2usb.cpp
+[flashProtData] This is line 972 of file EmulatorInterface/comctrl.cpp
+[COM_ReceiveBlock] This is line 269 of file src/communi.cpp
+[ReceiveBlock] This is line 848 of file src/usb_e2usb.cpp
+[flashProtData] This is line 972 of file EmulatorInterface/comctrl.cpp
+[COM_ReceiveBlock] This is line 269 of file src/communi.cpp
+[ReceiveBlock] This is line 848 of file src/usb_e2usb.cpp
+[flashProtData] This is line 972 of file EmulatorInterface/comctrl.cpp
+[COM_ReceiveBlock] This is line 269 of file src/communi.cpp
+[ReceiveBlock] This is line 848 of file src/usb_e2usb.cpp
+[flashProtData] This is line 972 of file EmulatorInterface/comctrl.cpp
+[COM_ReceiveBlock] This is line 269 of file src/communi.cpp
+[ReceiveBlock] This is line 848 of file src/usb_e2usb.cpp
+[flashProtData] This is line 972 of file EmulatorInterface/comctrl.cpp
+[COM_ReceiveBlock] This is line 269 of file src/communi.cpp
+[ReceiveBlock] This is line 848 of file src/usb_e2usb.cpp
+[flashProtData] This is line 972 of file EmulatorInterface/comctrl.cpp
+[COM_ReceiveBlock] This is line 269 of file src/communi.cpp
+[ReceiveBlock] This is line 848 of file src/usb_e2usb.cpp
+[COM_ReceiveBlock] This is line 269 of file src/communi.cpp
+[ReceiveBlock] This is line 848 of file src/usb_e2usb.cpp
+[COM_ReceiveBlock] This is line 269 of file src/communi.cpp
+[ReceiveBlock] This is line 848 of file src/usb_e2usb.cpp
+[COM_ReceiveBlock] This is line 269 of file src/communi.cpp
+[ReceiveBlock] This is line 848 of file src/usb_e2usb.cpp
+[flashProtData] This is line 972 of file EmulatorInterface/comctrl.cpp
+[COM_ReceiveBlock] This is line 269 of file src/communi.cpp
+[ReceiveBlock] This is line 848 of file src/usb_e2usb.cpp
+[COM_ReceiveBlock] This is line 269 of file src/communi.cpp
+[ReceiveBlock] This is line 848 of file src/usb_e2usb.cpp
+[COM_ReceiveBlock] This is line 269 of file src/communi.cpp
+[ReceiveBlock] This is line 848 of file src/usb_e2usb.cpp
+[COM_ReceiveBlock] This is line 269 of file src/communi.cpp
+[ReceiveBlock] This is line 848 of file src/usb_e2usb.cpp
+[GetData2] This is line 577 of file EmulatorInterface/comctrl.cpp
+[flashProtData] This is line 972 of file EmulatorInterface/comctrl.cpp
+[COM_ReceiveBlock] This is line 269 of file src/communi.cpp
+[ReceiveBlock] This is line 848 of file src/usb_e2usb.cpp
+[COM_ReceiveBlock] This is line 269 of file src/communi.cpp
+[ReceiveBlock] This is line 848 of file src/usb_e2usb.cpp
+[GetData2] data in 0x00000000, out 0x0000ffff
+[GetData2] This is line 577 of file EmulatorInterface/comctrl.cpp
+[flashProtData] This is line 972 of file EmulatorInterface/comctrl.cpp
+[COM_ReceiveBlock] This is line 269 of file src/communi.cpp
+[ReceiveBlock] This is line 848 of file src/usb_e2usb.cpp
+[COM_ReceiveBlock] This is line 269 of file src/communi.cpp
+[ReceiveBlock] This is line 848 of file src/usb_e2usb.cpp
+[GetData2] data in 0x0000ffff, out 0x00000000
+[flashProtData] This is line 972 of file EmulatorInterface/comctrl.cpp
+[COM_ReceiveBlock] This is line 269 of file src/communi.cpp
+[ReceiveBlock] This is line 848 of file src/usb_e2usb.cpp
+[flashProtData] This is line 972 of file EmulatorInterface/comctrl.cpp
+[COM_ReceiveBlock] This is line 269 of file src/communi.cpp
+[ReceiveBlock] This is line 848 of file src/usb_e2usb.cpp
+[flashProtData] This is line 972 of file EmulatorInterface/comctrl.cpp
+[COM_ReceiveBlock] This is line 269 of file src/communi.cpp
+[ReceiveBlock] This is line 848 of file src/usb_e2usb.cpp
+[flashProtData] This is line 972 of file EmulatorInterface/comctrl.cpp
+[COM_ReceiveBlock] This is line 269 of file src/communi.cpp
+[ReceiveBlock] This is line 848 of file src/usb_e2usb.cpp
+[flashProtData] This is line 972 of file EmulatorInterface/comctrl.cpp
+[COM_ReceiveBlock] This is line 269 of file src/communi.cpp
+[ReceiveBlock] This is line 848 of file src/usb_e2usb.cpp
+[flashProtData] This is line 972 of file EmulatorInterface/comctrl.cpp
+[COM_ReceiveBlock] This is line 269 of file src/communi.cpp
+[ReceiveBlock] This is line 848 of file src/usb_e2usb.cpp
+[flashProtData] This is line 972 of file EmulatorInterface/comctrl.cpp
+[COM_ReceiveBlock] This is line 269 of file src/communi.cpp
+[ReceiveBlock] This is line 848 of file src/usb_e2usb.cpp
+[flashProtData] This is line 972 of file EmulatorInterface/comctrl.cpp
+[COM_ReceiveBlock] This is line 269 of file src/communi.cpp
+[ReceiveBlock] This is line 848 of file src/usb_e2usb.cpp
+[flashProtData] This is line 972 of file EmulatorInterface/comctrl.cpp
+[COM_ReceiveBlock] This is line 269 of file src/communi.cpp
+[ReceiveBlock] This is line 848 of file src/usb_e2usb.cpp
+[flashProtData] This is line 972 of file EmulatorInterface/comctrl.cpp
+[COM_ReceiveBlock] This is line 269 of file src/communi.cpp
+[ReceiveBlock] This is line 848 of file src/usb_e2usb.cpp
+[flashProtData] This is line 972 of file EmulatorInterface/comctrl.cpp
+[COM_ReceiveBlock] This is line 269 of file src/communi.cpp
+[ReceiveBlock] This is line 848 of file src/usb_e2usb.cpp
+[flashProtData] This is line 972 of file EmulatorInterface/comctrl.cpp
+[COM_ReceiveBlock] This is line 269 of file src/communi.cpp
+[ReceiveBlock] This is line 848 of file src/usb_e2usb.cpp
+[flashProtData] This is line 972 of file EmulatorInterface/comctrl.cpp
+[COM_ReceiveBlock] This is line 269 of file src/communi.cpp
+[ReceiveBlock] This is line 848 of file src/usb_e2usb.cpp
+[COM_ReceiveBlock] This is line 269 of file src/communi.cpp
+[ReceiveBlock] This is line 848 of file src/usb_e2usb.cpp
+[COM_ReceiveBlock] This is line 269 of file src/communi.cpp
+[ReceiveBlock] This is line 848 of file src/usb_e2usb.cpp
+[COM_ReceiveBlock] This is line 269 of file src/communi.cpp
+[ReceiveBlock] This is line 848 of file src/usb_e2usb.cpp
+[flashProtData] This is line 972 of file EmulatorInterface/comctrl.cpp
+[COM_ReceiveBlock] This is line 269 of file src/communi.cpp
+[ReceiveBlock] This is line 848 of file src/usb_e2usb.cpp
+[GetData2] This is line 577 of file EmulatorInterface/comctrl.cpp
+[flashProtData] This is line 972 of file EmulatorInterface/comctrl.cpp
+[COM_ReceiveBlock] This is line 269 of file src/communi.cpp
+[ReceiveBlock] This is line 848 of file src/usb_e2usb.cpp
+[COM_ReceiveBlock] This is line 269 of file src/communi.cpp
+[ReceiveBlock] This is line 848 of file src/usb_e2usb.cpp
+[GetData2] data in 0x00000000, out 0x0000ffff
+[GetData2] This is line 577 of file EmulatorInterface/comctrl.cpp
+[flashProtData] This is line 972 of file EmulatorInterface/comctrl.cpp
+[COM_ReceiveBlock] This is line 269 of file src/communi.cpp
+[ReceiveBlock] This is line 848 of file src/usb_e2usb.cpp
+[COM_ReceiveBlock] This is line 269 of file src/communi.cpp
+[ReceiveBlock] This is line 848 of file src/usb_e2usb.cpp
+[GetData2] data in 0x0000ffff, out 0x00000000
+[GetData2] This is line 577 of file EmulatorInterface/comctrl.cpp
+[flashProtData] This is line 972 of file EmulatorInterface/comctrl.cpp
+[COM_ReceiveBlock] This is line 269 of file src/communi.cpp
+[ReceiveBlock] This is line 848 of file src/usb_e2usb.cpp
+[COM_ReceiveBlock] This is line 269 of file src/communi.cpp
+[ReceiveBlock] This is line 848 of file src/usb_e2usb.cpp
+[GetData2] data in 0x00000000, out 0x0000ffff
+[GetData2] This is line 577 of file EmulatorInterface/comctrl.cpp
+[flashProtData] This is line 972 of file EmulatorInterface/comctrl.cpp
+[COM_ReceiveBlock] This is line 269 of file src/communi.cpp
+[ReceiveBlock] This is line 848 of file src/usb_e2usb.cpp
+[COM_ReceiveBlock] This is line 269 of file src/communi.cpp
+[ReceiveBlock] This is line 848 of file src/usb_e2usb.cpp
+[GetData2] data in 0x00000000, out 0x00000000
+[DO_GetE20EINF] This is line 388 of file Common/Com_FFWCommand/do_sys.cpp Done
+[FFWE20Cmd_GetEINF] This is line 206 of Common/Com_FFWInterface/ffw_sys.cpp file return FFWERR_OK Done
+Emulator Information:
+	wEmuStatus              = 5
+	wBoardRev               = 3
+	eEmlPwrSupply           = 0
+	wVbusVal                = 3087
+	flNowVbus               = 4.974170
+	wTagetCable             = 3
+	eStatUIF                = 3
+	eStatUCON               = 0
+	wUvccVal                = 18
+	flNowUVCC               = 0.029004
+	eStatUVCC               = 0
+	byBfwMode               = 0
+	dwBfwLV0Ver             = 274726912
+	dwBfwEMLVer             = 25
+	wEmlTargetCpu           = 1
+	wEmlTargetCpuSub        = 0
+	cEmlTgtMucId            =                 
+	dwEmlTargetLv0Ver       = 0
+	dwBfwFdtVer             = -1
+	cFdtTgtMucId            = FFFF            
+	dwFdtTargetLv0Ver       = 0
+	byFpga1Status           = 0
+	byFpga1DbgIf            = 0
+	eDebugIF                = 0
+	byFpga1Rev              = 0
+	byFpga2DbgIf            = 0
+	eMCUType                = 0
+	byFpga2Rev              = 0
+	byFpgaVer               = 255
+	byTraceFlg              = 1
+[COM_Close] This is line 199 of file src/communi.cpp
+[Close] This is line 639 of file src/usb_e2usb.cpp
+Device detached
+Released Interface
+Close usb device
+Exit libusb
+[Close] done
